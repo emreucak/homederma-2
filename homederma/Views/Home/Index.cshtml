@@ -120,40 +120,6 @@
     }); //ready
 </script>
 
-<!--Parallax house-->
-<script type="text/javascript">
-    "use strict";
-    $('.categori_block').parallax({
-        'elements': [
-        {
-            'selector': '.categori_block',
-            'properties': {
-                'x': {
-                    'background-position-x': {
-                        'initial': 0,
-                        'multiplier': 0.1,
-                        'invert': true
-                    }
-                },
-                'y': {
-                    'background-position-y': {
-                        'initial': -780,
-                        'multiplier': 0.1,
-                        'invert': true
-                    }
-                }
-            }
-        }
-        ]
-    });
-</script>
-
-<script type="text/javascript">
-    "use strict";
-    setHeiHeight();
-    $(window).resize(setHeiHeight);
-</script>
-
 
 </head>
 <body onload="initialize()" class="promo">
@@ -276,7 +242,7 @@
 - Slider revolution -
 #################################
 -->
-<div class="tp-banner-container">
+@*<div class="tp-banner-container">
   <div class="tp-banner" >
     <ul>
       <!-- SLIDE  -->
@@ -504,7 +470,7 @@ data-easing="Power4.easeOut">
 </li>
 </ul>
 </div>
-</div>
+</div>*@
 
 <!--Categori blocks-->
 <div class="categori_block container-fluid">
@@ -827,6 +793,40 @@ data-easing="Power4.easeOut">
 </div>
 </div>
 
+    
+<!--Parallax house-->
+<script type="text/javascript">
+    "use strict";
+    $('.categori_block').parallax({
+        'elements': [
+        {
+            'selector': '.categori_block',
+            'properties': {
+                'x': {
+                    'background-position-x': {
+                        'initial': 0,
+                        'multiplier': 0.1,
+                        'invert': true
+                    }
+                },
+                'y': {
+                    'background-position-y': {
+                        'initial': -780,
+                        'multiplier': 0.1,
+                        'invert': true
+                    }
+                }
+            }
+        }
+        ]
+    });
+</script>
+
+<script type="text/javascript">
+    "use strict";
+    setHeiHeight();
+    $(window).resize(setHeiHeight);
+</script>
 
 
 </body>

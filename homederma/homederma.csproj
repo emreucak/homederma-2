@@ -317,6 +317,13 @@
     <Content Include="Scripts\js\.DS_Store" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Map.cshtml" />
+    <Content Include="Views\Home\1.cshtml" />
+    <Content Include="Views\Home\2.cshtml" />
+    <Content Include="Views\Home\3.cshtml" />
+    <Content Include="Views\Home\4.cshtml" />
+    <Content Include="Views\Home\5.cshtml" />
+    <Content Include="Views\Home\6.cshtml" />
+    <Content Include="Views\Home\7.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
